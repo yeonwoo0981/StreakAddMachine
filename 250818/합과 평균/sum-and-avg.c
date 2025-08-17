@@ -2,12 +2,15 @@
 
 int main() {
     int a, b;
+    int sum;
+    double avg;
+    
+    scanf("%d %d", &a, &b);
 
-    scanf("%d %d \n", &a, &b);
+    sum = a + b;
+    avg = (a + b) / 2.0;
 
-    int sum = a + b;
-    double average = (a + b) / 2 + 0.5;
+    printf("%d %.1f\n", sum, avg);
 
-    printf("%d %.1f \n", sum, average);
     return 0;
 }
