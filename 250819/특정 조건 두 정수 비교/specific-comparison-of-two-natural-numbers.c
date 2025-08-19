@@ -9,4 +9,6 @@ int main() {
     printf("%d %d", a < b, a == b);
     else if(a == b)
     printf("%d %d", a < b, a == b);
+    else
+    printf("%d %d", a < b, a == b);
 }
